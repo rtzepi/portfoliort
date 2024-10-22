@@ -1,0 +1,19 @@
+{
+  "name": "proyectowebserverportafoliorailway",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["portfolio", "express", "nodejs", "railway"],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "description": "Un portafolio personal desplegado en Railway utilizando Node.js y Express.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "hbs": "^4.2.0"
+  }
+}
