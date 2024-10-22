@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/stylesp1.css">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -21,7 +22,21 @@
         <div class="star"></div>
     </div>
     
-    {{> header}}
+    {{!-- {{> header}} --}}
+    <header class="header">
+        <a href="/#home" class="logo">Royer <span>Tzep</span></a>
+
+        <i class='bx bx-menu bx-tada bx-rotate-90' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="/#home">Inicio</a>
+            <a href="/#education">Educación</a>
+            <a href="/#services">Servicios</a>
+            <a href="/#projects">Proyectos</a>
+            <a href="/#contact">Contacto</a>
+        </nav>
+        
+    </header>
 
     <section class="project_1" id="project_1">
             <div class="card">
@@ -101,7 +116,23 @@
     
     </section>
 
-    {{> footer}}
+    {{!-- {{> footer}} --}}
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://github.com/RogerTi03"><img src="icon//githubnegro.png" alt=""></a>
+            <a href="https://www.instagram.com/anderr_117?igsh=a2F0MmRiejVyN3Jl"><img src="icon/instagramnegro.png" alt=""></a>
+            <a href="https://x.com/Rogerti117?t=3O32IK__0GMEycyId8Ldfw&s=09"><img src="icon/xnegro.png" alt=""></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="/#services">Servicios</a></li>
+            <li><a href="/#home">Acerca de mi</a></li>
+            <li><a href="/#contact">Contacto</a></li>
+            <li><a href="/#projects">Proyectos</a></li>
+        </ul>
+        <p class="copyright">©Royer Tzep | Todos los derechos reservados</p>
+    </footer>
 
 </body>
 </html>

@@ -42,7 +42,7 @@ app.get('/p3', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.sendFile(__dirname + '/PORTFOLIORT/404.html');
+    res.sendFile(__dirname + '/PORTFOLIORT/video/404.html');
 });
 
 // Iniciar el servidor
