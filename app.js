@@ -15,29 +15,27 @@ app.use(express.static(__dirname + '/PORTFOLIORT'));
 // Rutas
 app.get('/', (req, res) => {
     res.render('index', {
-        nombre: 'Royer Tzep',
-        titulo: 'Portafolio'
+        nombre: 'Royer',
+        apellido: 'Tzep',
+        titulo: 'Portafolio',
     });
 });
 
 app.get('/p1', (req, res) => {
     res.render('indexp1', {
-        nombre: 'Royer Tzep',
-        titulo: 'Proyecto 1'
+        titulouno: 'Totito'
     });
 });
 
 app.get('/p2', (req, res) => {
     res.render('indexp2', {
-        nombre: 'Royer Tzep',
-        titulo: 'Proyecto 2'
+        titulodos: 'Estructura de Datos'
     });
 });
 
 app.get('/p3', (req, res) => {
     res.render('indexp3', {
-        nombre: 'Royer Tzep',
-        titulo: 'Proyecto 3'
+        titulotres: 'Portfolio'
     });
 });
 
