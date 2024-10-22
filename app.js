@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 // Configuración del motor de plantillas
 app.set('view engine', 'hbs');
-hbs.registerPartials(__dirname + '/PORTFOLIORT/views/partials');
+hbs.registerPartials(__dirname + '/views/partials');
 
 // Middleware para servir archivos estáticos
 app.use(express.static(__dirname + '/PORTFOLIORT'));
@@ -42,7 +42,7 @@ app.get('/p3', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.sendFile(__dirname + '/PORTFOLIORT/video/404.html');
+    res.sendFile(__dirname + '/PORTFOLIORT/404.html');
 });
 
 // Iniciar el servidor
