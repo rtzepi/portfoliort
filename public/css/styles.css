@@ -24,7 +24,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-/*___________________________________________INICIO ESTRELLAS_____________________________*/
+/*__________________//_________________________INICIO ESTRELLAS_________________//___________________________*/
 .stars-container{
     position: fixed;
     top: 0;
@@ -104,8 +104,9 @@ body{
         transform: translateX(50px) translateY(50px);
     }
 }
-/*___________________________________________FIN ESTRELLAS_____________________________*/
+/*__________________!!_________________________FIN ESTRELLAS_________________!!___________________________*/
 
+/*__________________//_________________________INICIO HEADER_________________//___________________________*/
 
 .header{
     position: fixed;
@@ -392,7 +393,7 @@ span{
     }
 }
 
-/*-------------------------------------------------------------------INICIO SOBRE MI-----------------------------------------------------*/
+/*__________________//_________________________INICIO SOBRE MI_________________//___________________________*/
 .about .about-content {
     display: flex;
     flex-direction: column;
@@ -685,13 +686,20 @@ ul.skills li.sk-html { --per: 75; }
 ul.skills li.sk-css { --per: 75; }
 ul.skills li.sk-css { --per: 75; }
 
+ul.skills li.sk-angular { --per: 75; }
+ul.skills li.sk-bt { --per: 75; }
+ul.skills li.sk-ndjs { --per: 35; }
+
+ul.skills li.sk-sql { --per: 55; }
+ul.skills li.sk-oracle { --per: 35; }
 
 label[for="sk1"]:before {
     border-color: cornflowerblue;
 }
 
+/*__________________!!_________------___________FIN SOBRE MI_________--________!!________________________*/
 
-/*-------------------------------------------------------------------INICIO EDUCACIÓN-----------------------------------------------------*/
+/*---------------------------------------------INICIO EDUCACIÓN------------------------------------------*/
 .heading{
     font-size: 8rem;
     text-align: center;
