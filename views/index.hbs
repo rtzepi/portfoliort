@@ -6,6 +6,7 @@
     <title>{{titulo}} {{nombre}} {{apellido}} </title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
 </head>
 <body>
     <div class="stars-container">
@@ -63,6 +64,100 @@
             <img src="img/img1.jpg" alt="">
         </div>
     </section>
+
+<!--____________________________________SOBRE MI_________________________-->
+<section class="about section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2 class="heading">Sobre mi</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-content padd-15">
+                <div class="row">
+                    <div class="about-text padd-15">
+                        <h1>Hola, Soy <span>{{nombre}} </span></h1>
+                        <p>
+                            Un apasionado desarrollador web con un enfoque especial en el diseño moderno y funcional. Mi experiencia abarca tecnologías como HTML, CSS, JavaScript, Angular y .NET, lo que me permite crear aplicaciones eficientes y atractivas. Estoy en un constante proceso de aprendizaje, perfeccionando mis habilidades en programación y diseño, buscando siempre implementar las mejores prácticas en mis proyectos.
+
+Además, tengo un fuerte interés en la creación de experiencias de usuario excepcionales, utilizando herramientas como Bootstrap para lograr un diseño responsivo y minimalista. He trabajado en diversos proyectos, desde una calculadora en Node.js hasta un juego de "Tres en Línea" en Java, y estoy desarrollando una aplicación móvil para una ferretería que integra módulos de inventario, ventas y reportes.
+
+Me apasiona la lectura bíblica y estoy en proceso de crear contenido para un canal de YouTube que refleje ese interés. También me interesa la redacción técnica, con el objetivo de documentar mis proyectos y compartir mis conocimientos con la comunidad.
+
+Con un enfoque en el desarrollo personal y profesional, siempre busco nuevos desafíos y oportunidades para crecer en el campo de la tecnología.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="personal-info padd-15">
+                        <div class="row">
+                            <div class="info-item padd-15">
+                                <p>Fecha de Nacimiento : <span>2 jun 2003</span></p>
+                            </div>
+                            <div class="info-item padd-15">
+                                <p>Edad : <span>21</span></p>
+                            </div>
+                            <div class="info-item padd-15">
+                                <p>Email : <span>roger.tzep0304@gmail.com</span></p>
+                            </div>
+                            <div class="info-item padd-15">
+                                <p>Ciudad : <span>Sololá</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text padd-15">
+                        <h1><span>Skills </span></h1>
+                    </div>
+                    <div class="skills-container">
+    <div class="profile-skills">
+        <h2>Lenguajes de Programación</h2>
+        <div>
+            <ul class="skills skills1">
+                <li class="sk-js"><span>JavaScript</span></li>
+                <li class="sk-py"><span>Python</span></li>
+                <li class="sk-csh"><span>C#</span></li>
+                <li class="sk-html"><span>HTML</span></li>
+                <li class="sk-css"><span>CSS</span></li>                               
+            </ul>
+        </div>
+    </div>
+
+    <div class="profile-skills">
+        <h2>Frameworks y Bibliotecas</h2>
+        <div>
+            <ul class="skills skills1">
+                <li class="sk-ang"><span>Angular</span></li>
+                <li class="sk-bt"><span>Bootstrap</span></li>
+                <li class="sk-ndjs"><span>Node.js</span></li>                               
+            </ul>
+        </div>
+    </div>
+
+    <div class="profile-skills">
+        <h2>Bases de Datos</h2>
+        <div>
+            <ul class="skills skills1">
+                <li class="sk-ang"><span>SQL Server</span></li>
+                <li class="sk-bt"><span>Oracle</span></li>                             
+            </ul>
+        </div>
+    </div>
+</div>
+
+                    <div class="row">
+                        <div class="buttons padd-15">
+                            <a href="#" class="btn">Descargar CV</a>
+                            {{!-- <a href="#" class="btn hire-me">Hire Me</a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <!--____________________________________EDUCACIÓN_______________________-->
     <section class="education" id="education">
@@ -149,13 +244,14 @@
                         Diseño gráfico complementario: Creación de logotipos, banners, iconos y otros elementos visuales que fortalecen la presencia de tu marca.
                     </p>
                 </div>
+                
             </div>
 
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Servicios de Desarrollador Web</h4>
+                    <h4>Documentación Técnica </h4>
                     <p>
-                        Como Desarrollador Web, combino la lógica y la tecnología para convertir diseños en sitios web completamente funcionales, seguros y rápidos. Mi enfoque es construir soluciones sólidas y escalables que impulsen el rendimiento y el crecimiento de tu negocio.
+                        Ofrezco servicios de documentación técnica clara y concisa que facilitan la comprensión y el uso de sistemas y aplicaciones. La documentación es esencial para la continuidad del proyecto y el soporte de los usuarios.
                     </p>
                     <br>
                     <p>
@@ -163,7 +259,25 @@
                     </p>
                     <br>
                     <p>
-                        Desarrollo Frontend: Utilizo las últimas tecnologías como HTML5, CSS3, JavaScript y frameworks modernos como React o Vue.js para dar vida a tus diseños, asegurando un rendimiento ágil y eficiente.
+                        Creación de manuales de usuario: Documentación detallada que ayuda a los usuarios a navegar y utilizar sistemas de manera efectiva.
+                    </p>
+                    <br>
+
+                    <h4>Desarrollo de Contenido Digital</h4>
+                    <p>
+                        Como experto en desarrollo de contenido digital, creo materiales atractivos y efectivos que comunican mensajes clave y fortalecen la presencia de marcas en línea. Mi enfoque es estratégico y orientado a resultados.
+                    </p>
+                    <br>
+                    <p>
+                    Mis servicios incluyen:
+                    </p>
+                    <br>
+                    <p>
+                        Creación de contenido web: Desarrollo de textos persuasivos y relevantes que optimizan la comunicación y mejoran la experiencia del usuario.
+                    </p>
+                    <br>
+                    <p>
+                        Producción de videos y multimedia: Creación de contenido visual que complementa y enriquece la experiencia del usuario.
                     </p>
                 </div>
             </div>
@@ -243,6 +357,50 @@
                         </p>
                 </div>
             </a>
+
+            <a href="/p4">
+                <div class="project-item">
+                    <img src="img/img1.jpg" alt="">
+                    <h2>Calculadora MRU y MRUV </h2>
+                    <div class="rating">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <!-- <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i> -->
+                    </div>
+                        <p>
+                            Este proyecto consiste en el desarrollo de una calculadora para Movimiento Rectilíneo Uniforme (MRU) y Movimiento Rectilíneo Uniformemente Variado (MRUV) utilizando HTML, CSS y JavaScript.
+                        </p>
+                </div>
+            </a>
+
+            <a href="/p5">
+                <div class="project-item">
+                    <img src="img/img1.jpg" alt="">
+                    <h2>Analizador AFD </h2>
+                    <div class="rating">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <img src="icon/estrella.png" id="star" alt="">
+                        <!-- <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i>
+                        <i class='bx bxs-star bx-tada bx-rotate-90' id="star"></i> -->
+                    </div>
+                        <p>
+                            Este proyecto es un Analizador de Autómata Finito Determinista (AFD) que permite cargar un archivo XML con la definición de un AFD, analizar cadenas de texto ingresadas por el usuario y determinar si dichas cadenas son aceptadas por el autómata. 
+                        </p>
+                </div>
+            </a>
             </div>
         </div>
     </section>
@@ -278,6 +436,6 @@
 
     {{> footer}}
 
-
+    <script src="/js/script.js"></script>
 </body>
 </html>

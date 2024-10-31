@@ -10,7 +10,7 @@ app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials');
 
 // Middleware para servir archivos estáticos
-app.use(express.static(__dirname + '/PORTFOLIORT'));
+app.use(express.static(__dirname + '/public'));
 
 // Rutas
 app.get('/', (req, res) => {
@@ -39,8 +39,20 @@ app.get('/p3', (req, res) => {
     });
 });
 
+app.get('/p4', (req, res) => {
+    res.render('indexp4', {
+        titulotres: 'Calculadora MRU y MRUV'
+    });
+});
+
+app.get('/p5', (req, res) => {
+    res.render('indexp5', {
+        titulotres: 'Calculadora MRU y MRUV'
+    });
+});
+
 app.get('*', (req, res) => {
-    res.sendFile(__dirname + '/PORTFOLIORT/404.html');
+    res.sendFile(__dirname + '/public/404.html');
 });
 
 // Iniciar el servidor
