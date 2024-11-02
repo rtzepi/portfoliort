@@ -51,9 +51,14 @@ app.get('/p5', (req, res) => {
     });
 });
 
-app.get('*', (req, res) => {
-    res.sendFile(__dirname + '/public/404.html');
+// Manejar rutas no encontradas (404)
+app.use((req, res, next) => {
+    res.status(404).render('404');
 });
+
+// app.get('*', (req, res) => {
+//     res.sendFile(__dirname + '/public/404.hbs');
+// });
 
 // Iniciar el servidor
 app.listen(port, () => {
